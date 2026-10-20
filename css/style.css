@@ -1,0 +1,29 @@
+body{margin:0;background:#f2f1ed;color:#15171c;font:17px/1.6 Georgia,serif}
+main{max-width:900px;margin:0 auto;padding:1rem}
+h1,h2,h3{font-family:Arial,sans-serif}
+h2{border-top:3px solid #d4141c;padding-top:.5rem;margin-top:2rem}
+a{color:#d4141c}
+header{background:#673d3d;padding:.5rem 1rem;display:flex;flex-wrap:wrap;gap:.5rem 1rem;align-items:center}
+header a{color:#fff;text-decoration:none;font-family:Arial,sans-serif;padding:.3rem .6rem;border-bottom:3px solid transparent;display:inline-flex;align-items:center;gap:.3rem}
+header a.active{border-bottom-color:#d4141c;background:#672929}
+header img{width:20px;height:20px}
+header .brand img{width:34px;height:34px}
+nav.local{background:#fff;border:1px solid #ccc;padding:.5rem 1rem;display:flex;flex-wrap:wrap;gap:.3rem 1.2rem;font-family:Arial,sans-serif}
+figure{margin:1rem 0}
+figure img{max-width:100%;height:auto;border:1px solid #ccc}
+figcaption{font-size:.9rem;color:#555}
+table.tbl{border-collapse:collapse;width:100%;margin:1rem 0;border:2px solid #15171c;background-image:url(../images/bg_table.jpg)}
+.tbl th,.tbl td{border:1px solid #555;padding:.4rem .6rem;background:rgba(255,255,255,.85);vertical-align:top;text-align:left}
+.tbl th{background:#15171c;color:#fff}
+.tbl img{display:block;border:1px solid #15171c}
+form{background:#fff;border:1px solid #ccc;padding:1rem;max-width:600px;margin:1rem 0}
+label{display:block;margin-top:.5rem;font-family:Arial,sans-serif}
+label.inline{display:inline-block;margin-right:1rem}
+input[type=text],input[type=number],input[type=date],input[type=password],input[type=tel],input[type=email]{width:100%;padding:.4rem;font:inherit;box-sizing:border-box}
+fieldset{margin:.7rem 0}
+button{background:#d4141c;color:#fff;border:0;padding:.6rem 1.2rem;font:700 1rem Arial,sans-serif;margin-top:.8rem;cursor:pointer}
+.passport{background:#dde4ec;border:2px solid #7d8ea3;padding:.8rem 1.2rem;margin:1rem 0;max-width:560px;font-family:Arial,sans-serif}
+.passport h3{margin:.2rem 0}
+.passport p{margin:.25rem 0}
+.passport span{font-weight:700;font-family:"Courier New",monospace}
+.out{border-left:6px solid #d4141c;background:#fff;padding:.7rem 1rem;margin-top:1rem;font-family:Arial,sans-serif;font-size:1.1rem}
